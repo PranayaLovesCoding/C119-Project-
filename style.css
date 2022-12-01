@@ -1,0 +1,57 @@
+.button_showsketch{
+    float:right;
+}
+
+h2{
+    color: rgb(121, 10, 248);
+    background-color: rgb(193, 246, 255);
+}
+ 
+body{
+background-color: rgb(247, 210, 237);
+}
+
+canvas{
+    background-color: white;
+    border: 10px rgb(255, 255, 255) ridge;
+    animation-name: shadow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes shadow{
+    from{
+        box-shadow: 1px 1px 38px gray;
+    }
+    to{
+        box-shadow: 1px 1px 38px white;
+    }
+}
+
+.btn-close{
+    float: right;
+}
+
+.sketch_drawn{
+    color: Red;
+    font-weight: bolder;
+}
+
+.your_sketch{
+    font-weight: bold;
+}
+
+.confidence{
+    font-weight: bold;
+}
+
+.score{
+    color:blue;
+    font-weight: bold;
+    margin-right: 1300;
+}
+
+.timer{
+    color:blue;
+    font-weight: bold;
+    margin-left: 1050;
+}
